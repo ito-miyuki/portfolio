@@ -1,0 +1,29 @@
+
+header {
+    background-size: cover;
+    max-width: 100%;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.container-about-me {
+    display: flex;
+    margin: 20px 60px;
+  }
+
+  .miyuki-image {
+    width: 300px;
+    height: auto;
+}
+
+.about-me-left {
+
+}
+
+.about-me-right {
+    text-align: left;
+    margin-left: 40px;
+    width: 70%;
+}
