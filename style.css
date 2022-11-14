@@ -27,3 +27,9 @@ header {
     margin-left: 40px;
     width: 70%;
 }
+
+.container-projects,
+.container-certifications,
+.container-contact {
+    margin: 20px 60px;
+}
