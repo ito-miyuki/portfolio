@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 
 header {
     background-size: cover;
@@ -27,4 +30,39 @@ header {
 .container-projects,
 .container-contact {
     margin: 20px 60px;
+}
+
+@media only screen and (max-width: 480px) {
+    .header-image {
+        display: none;
+    }
+
+    .container-about-me {
+        display: flex;
+        margin: 20px 60px;
+        flex-direction: column;
+      }
+
+      .about-me-content {
+        text-align: left;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        /*margin: 20px 60px;*/
+        width: 100%;
+        text-align: center;
+      }
+
+      .miyuki-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .container-contact {
+            text-align: center;
+        }
 }
