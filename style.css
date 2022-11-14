@@ -13,13 +13,9 @@ header {
     margin: 20px 60px;
   }
 
-  .miyuki-image {
+.miyuki-image {
     width: 300px;
     height: auto;
-}
-
-.about-me-left {
-
 }
 
 .about-me-right {
@@ -29,7 +25,6 @@ header {
 }
 
 .container-projects,
-.container-certifications,
 .container-contact {
     margin: 20px 60px;
 }
